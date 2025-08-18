@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HR Analytics Dashboard — Case Study</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9fafb;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #1f2937;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      margin-top: 2rem;
+      color: #1f2937;
+    }
+    .images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .images img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      background: #fff;
+      padding: 0.5rem;
+    }
+    .insights {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      margin-top: 2rem;
+    }
+    .insights ul {
+      margin: 0;
+      padding-left: 1.2rem;
+    }
+    .insights li {
+      margin-bottom: 0.8rem;
+    }
+    .btn {
+      display: inline-block;
+      background: #2563eb;
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      margin-top: 1rem;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #1d4ed8;
+    }
+    footer {
+      background: #1f2937;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HR Analytics Dashboard</h1>
+    <p>Employee Insights & Attrition Analysis</p>
+  </header>
+
+  <div class="container">
+
+    <h2>📊 Key KPIs</h2>
+    <div class="images">
+      <img src="images/HR/HR_KPI.png" alt="HR KPI Overview">
+    </div>
+
+    <h2>👥 Workforce Distribution</h2>
+    <div class="images">
+      <img src="images/HR/Total_Employees_by_Gender.png" alt="Employees by Gender">
+      <img src="images/HR/Employees by Marital Status.png" alt="Employees by Marital Status">
+    </div>
+
+    <h2>📉 Attrition Analysis</h2>
+    <div class="images">
+      <img src="images/HR/Age_Wise_Attrition.png" alt="Age Wise Attrition">
+      <img src="images/HR/Job Satisfaction.png" alt="Attrition by Job Role">
+      <img src="images/HR/Eductaion_Attrition.png" alt="Education Wise Attrition">
+      <img src="images/HR/Department_wise_Attrition.png" alt="Department Wise Attrition">
+    </div>
+
+    <h2>🛠️ Tools Used</h2>
+    <p>Excel, Power BI, Tableau</p>
+
+    <div class="insights">
+      <h2>💡 Key Insights & Business Value</h2>
+      <ul>
+        <li>Overall <strong>attrition rate is 16.12%</strong>, with 237 employees leaving the company.</li>
+        <li><strong>Age group 25–34</strong> shows the highest attrition, highlighting the need for career development & engagement programs for younger employees.</li>
+        <li><strong>Sales Executives</strong> face the highest attrition among job roles (326), signaling workload or job satisfaction issues.</li>
+        <li><strong>Life Sciences and Medical graduates</strong> show higher attrition, suggesting a need to revisit career growth opportunities for these fields.</li>
+        <li><strong>Sales and R&D departments</strong> together account for over 95% of attrition, requiring department-specific retention strategies.</li>
+        <li>Married employees (673) form the largest group, but <strong>single employees show relatively higher attrition</strong> proportionally.</li>
+        <li>Gender distribution shows <strong>882 males vs 588 females</strong>, providing insights into diversity and workforce planning.</li>
+      </ul>
+      <p><strong>Business Value:</strong> This dashboard helps HR leaders identify attrition hotspots, understand employee demographics, and design targeted retention strategies to improve workforce stability.</p>
+    </div>
+
+    <!-- Tableau Link -->
+    <div style="margin-top:2rem; text-align:center;">
+      <a href="https://public.tableau.com/app/profile/dizeeta.gudhka/viz/HRDataTableau_17534388013870/HRANALYTICSDASHBOARD" target="_blank" class="btn">🔗 View Interactive Tableau Dashboard</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2025 HR Analytics Dashboard | Designed by Dizeeta Gudhka</p>
+  </footer>
+
+</body>
+</html>
